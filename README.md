@@ -1,4 +1,4 @@
-fi# angular-tour-of-heroes
+# angular-tour-of-heroes
 A simple modification on the Angular Tour of Heroes tutorial, in order to have it access a Java Rest service
 
 ### Intro
@@ -17,7 +17,7 @@ The only thing you need to change in your Tour of Hero application is the addres
 
 We are going to change that, to the local URL of the service we will create:
 
-private heroesUrl = 'http://localhost:8080/showcase-services/rest/heroes/list';
+	private heroesUrl = 'http://localhost:8080/showcase-services/rest/heroes/list';
 
 I'm gonna explain that URL later.
 
@@ -25,10 +25,10 @@ I'm gonna explain that URL later.
 
 To create our very simple Java REST API, we will use:
 
-	- Eclipse IDE (I'm using tOxygen.2)
-	- Java 1.8
-	- Tomcat 8
-	- Maven (I'm using the one that comes with Eclipse)
+* Eclipse IDE (I'm using tOxygen.2)
+* Java 1.8
+* Tomcat 8
+* Maven (I'm using the one that comes with Eclipse)
 
 ### Create the project
 	
