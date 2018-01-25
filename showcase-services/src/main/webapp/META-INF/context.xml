@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/showcase-services">
+
+	<ResourceLink global="jdbc/servicesdb" name="jdbc/servicesdb"  type="javax.sql.DataSource" />
+
+</Context>
